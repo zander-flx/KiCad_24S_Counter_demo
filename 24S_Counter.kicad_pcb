@@ -3056,7 +3056,7 @@
 			)
 		)
 		(property "Value" "74LS192"
-			(at 17.238485 17.143395 0)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "e417f448-f17d-46c1-9d83-0eebf05187e0")
 			(effects
@@ -3700,7 +3700,7 @@
 			)
 		)
 		(property "Value" "74LS48"
-			(at 17.238485 17.143395 0)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "9a2345da-b813-4d05-a3f0-62255eabac17")
 			(effects
@@ -7506,16 +7506,6 @@
 		)
 	)
 	(gr_line
-		(start 110 114)
-		(end 177 114)
-		(stroke
-			(width 0.0381)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "027ca797-f0f2-4a0f-9d0d-8d75729d503f")
-	)
-	(gr_line
 		(start 105.5 58.5)
 		(end 105.5 109.5)
 		(stroke
@@ -7524,48 +7514,6 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "26ac8b8d-d282-4c85-a5a4-636a151d8406")
-	)
-	(gr_arc
-		(start 110 114)
-		(mid 106.818019 112.681981)
-		(end 105.5 109.5)
-		(stroke
-			(width 0.0381)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "51823bbc-2fbd-4c30-a35b-d0ce5ba3d581")
-	)
-	(gr_arc
-		(start 181.5 109.5)
-		(mid 180.181981 112.681981)
-		(end 177 114)
-		(stroke
-			(width 0.0381)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "68e6edae-1fde-41fb-9a78-34f732eab4b5")
-	)
-	(gr_line
-		(start 110 54)
-		(end 177 54)
-		(stroke
-			(width 0.0381)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "ae09edcf-6e21-4466-929f-a8aafa12e8ef")
-	)
-	(gr_line
-		(start 181.5 58.5)
-		(end 181.5 109.5)
-		(stroke
-			(width 0.0381)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "bb61a7cd-8ec1-44bb-8465-8abbcf309d02")
 	)
 	(gr_arc
 		(start 105.5 58.5)
@@ -7578,6 +7526,37 @@
 		(layer "Edge.Cuts")
 		(uuid "c22f36fb-65ad-4cea-a60b-7f07d9aaa574")
 	)
+	(gr_line
+		(start 110 54)
+		(end 177 54)
+		(stroke
+			(width 0.0381)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "ae09edcf-6e21-4466-929f-a8aafa12e8ef")
+	)
+	(gr_arc
+		(start 110 114)
+		(mid 106.818019 112.681981)
+		(end 105.5 109.5)
+		(stroke
+			(width 0.0381)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "51823bbc-2fbd-4c30-a35b-d0ce5ba3d581")
+	)
+	(gr_line
+		(start 110 114)
+		(end 177 114)
+		(stroke
+			(width 0.0381)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "027ca797-f0f2-4a0f-9d0d-8d75729d503f")
+	)
 	(gr_arc
 		(start 177 54)
 		(mid 180.181981 55.318019)
@@ -7589,18 +7568,26 @@
 		(layer "Edge.Cuts")
 		(uuid "d66a6720-65dd-4055-8027-240756eb7159")
 	)
-	(gr_text "DESIGN\nENGINEERS:\n"
-		(at 149.5 58.25 0)
-		(layer "F.SilkS")
-		(uuid "3b65f281-e077-413d-9880-e74cde955bcb")
-		(effects
-			(font
-				(size 1.016 1.016)
-				(thickness 0.2032)
-				(bold yes)
-			)
-			(justify left bottom)
+	(gr_line
+		(start 181.5 58.5)
+		(end 181.5 109.5)
+		(stroke
+			(width 0.0381)
+			(type default)
 		)
+		(layer "Edge.Cuts")
+		(uuid "bb61a7cd-8ec1-44bb-8465-8abbcf309d02")
+	)
+	(gr_arc
+		(start 181.5 109.5)
+		(mid 180.181981 112.681981)
+		(end 177 114)
+		(stroke
+			(width 0.0381)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "68e6edae-1fde-41fb-9a78-34f732eab4b5")
 	)
 	(gr_text "Date:\nAPR 13 2026"
 		(at 128.75 60.75 0)
@@ -7615,14 +7602,14 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "DOLOSO\nGEDALANGA"
-		(at 159 59.5 0)
+	(gr_text "DESIGN\nENGINEERS:\n"
+		(at 149.5 58.25 0)
 		(layer "F.SilkS")
-		(uuid "8c91cc6c-89da-45ec-8833-44d6cf7de316")
+		(uuid "3b65f281-e077-413d-9880-e74cde955bcb")
 		(effects
 			(font
-				(size 1.524 1.524)
-				(thickness 0.3048)
+				(size 1.016 1.016)
+				(thickness 0.2032)
 				(bold yes)
 			)
 			(justify left bottom)
@@ -7636,6 +7623,19 @@
 			(font
 				(size 1.143 1.143)
 				(thickness 0.2286)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "DOLOSO\nGEDALANGA"
+		(at 159 59.5 0)
+		(layer "F.SilkS")
+		(uuid "8c91cc6c-89da-45ec-8833-44d6cf7de316")
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.3048)
 				(bold yes)
 			)
 			(justify left bottom)
